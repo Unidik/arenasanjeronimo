@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oferta de Arena</title>
+
+<style>
+body{
+    font-family:Arial, sens-serif;
+    background:#f4f4f4;
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+header{
+    backgroud:#d89b2b;
+    color:white;
+    padding:30px;
+}
+.container{
+    background:white;
+    max-width:600px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:10px;
+    box-shdow:0 0 10px rgba(0,0,0,0.2);
+}
+.price{
+    font-size:40px;
+    color:#d35400;
+    font-weight:bold;
+}
+.offer{
+    font-size:22px;
+    color:#27ae60;
+    margin-top:20px;
+    font-weight:bold;
+}
+button{
+    margin-top:25px;
+    padding:15px 30px;
+    font-size:18px;
+    background:#e67e22;
+    border:none;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+button:hover{
+    background:#ca6f1e;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Venta de Arena</h1>
+<p>Materiales para construccion</p>
+</header>
+
+<div class="container">
+
+<h2>!Gran Oferta!</h2>
+
+<p class="price">$600 MXN</p>
+<p>1 m3 de Arena</p>
+
+<p class="offer">
+Compra 3 m3 de Arena<br>
+y llevate <strong>1/2 m3 de grava GRATIS</strong>
+</p>
+
+<button>Contactanos</button>
+
+</div>
+
+</body>
+</html>
